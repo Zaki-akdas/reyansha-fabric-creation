@@ -51,8 +51,8 @@ section[id] { scroll-margin-top: 78px; }
 .nav-actions { display: flex; align-items: center; gap: 12px; }
 .nav-search { border: 0; background: transparent; color: inherit; cursor: pointer; width: 38px; height: 38px; display: grid; place-items: center; }
 .nav-enquire { height: 38px; padding: 0 17px; background: transparent; color: inherit; border: 1px solid currentColor; display: flex; align-items: center; gap: 19px; font-size: 9px; text-transform: uppercase; letter-spacing: .14em; cursor: pointer; transition: background .25s, color .25s; }
-.nav-enquire:hover { background: currentColor; color: var(--ivory); }
-.navbar:not(.nav-scrolled) .nav-enquire:hover { color: var(--ink); }
+.nav-enquire:hover { background: var(--ink); color: var(--ivory); }
+.navbar:not(.nav-scrolled) .nav-enquire:hover { background: var(--ivory); color: var(--ink); }
 .menu-btn { display: none; border: 0; color: inherit; background: transparent; cursor: pointer; }
 
 .contact-notice { position: fixed; z-index: 110; left: 50%; top: 16px; transform: translateX(-50%); width: min(92vw, 620px); padding: 12px 46px 12px 18px; color: var(--ivory); background: var(--indigo); box-shadow: 0 12px 40px rgba(0,0,0,.2); }
